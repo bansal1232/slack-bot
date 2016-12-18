@@ -14,8 +14,7 @@ def parse_slack_output(message):
     if msg_list and len(msg_list) > 0:
         for msg in msg_list:
             if msg and 'text' in msg and AT_BOT in msg['text']:
-                return msg['text'].split(AT_BOT)[1].strip().lower,
-                msg['channel']
+                return msg['text'].split(AT_BOT)[1].strip().lower, msg['channel']
     return None, None
 
 def handle_command(command, channel):
