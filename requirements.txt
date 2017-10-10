@@ -1,0 +1,11 @@
+backports.ssl-match-hostname==3.5.0.1
+gunicorn==19.7.1
+inflect==0.2.5
+jaraco.itertools==2.0.1
+more-itertools==3.2.0
+requests==2.12.4
+six==1.10.0
+slackclient==1.0.4
+websocket-client==0.40.0
+wolframalpha==3.0
+xmltodict==0.11.0
