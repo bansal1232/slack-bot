@@ -1,1 +1,1 @@
-# slack-bot
+# slack-geekbot
